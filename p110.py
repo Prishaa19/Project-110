@@ -26,7 +26,7 @@ def show_fig(meanList):
 def setup():
     meanList = []
     for i in range(0,100):
-        set_of_means= randomSetOfMean(10)
+        set_of_means= randomSetOfMean(30)
         meanList.append(set_of_means)
     show_fig(meanList)
     print("sampling mean:- ", statistics.mean(meanList))
